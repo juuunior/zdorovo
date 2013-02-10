@@ -119,6 +119,8 @@ header .right{padding-right:59px;width:200px}
 .list3 li {line-height:25px}
 .list3 li a {text-decoration:none;padding-left:14px;background:url(../images/marker_2.gif) 0 5px no-repeat}
 .list3 li a:hover {text-decoration:underline}
+.content_title { font:18px Arial, Helvetica, sans-serif;}
+
 /* footer */
 footer {padding:0 0 0 60px;color:#fff}
 footer a {color:#a2b8c8}
