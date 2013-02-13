@@ -3,14 +3,14 @@
 <head>
     <title>@ViewBag.Title</title>
     <meta charset="windows-1251">
-    <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
-    <script type="text/javascript" src="js/jquery-1.4.2.js"></script>
-    <script type="text/javascript" src="js/cufon-yui.js"></script>
-    <script type="text/javascript" src="js/cufon-replace.js"></script>
-    <script type="text/javascript" src="js/CyrillicOld_700.font.js"></script>
-    <script type="text/javascript" src="js/imagepreloader.js"></script>
+    <link rel="stylesheet" href="~/css/reset.css" type="text/css" media="all">
+    <link rel="stylesheet" href="~/css/layout.css" type="text/css" media="all">
+    <link rel="stylesheet" href="~/css/style.css" type="text/css" media="all">
+    <script type="text/javascript" src="~/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="~/js/cufon-yui.js"></script>
+    <script type="text/javascript" src="~/js/cufon-replace.js"></script>
+    <script type="text/javascript" src="~/js/CyrillicOld_700.font.js"></script>
+    <script type="text/javascript" src="~/js/imagepreloader.js"></script>
     <script type="text/javascript">
         preloadImages([
         'images/menu1_active.gif',
@@ -24,14 +24,14 @@
 	<script type="text/javascript" src="js/html5.js"></script>
 <![endif]-->
 </head>
-    <body id="page1">
+    <body id="@ViewBag.PageId">
     <div class="body1">
 	<div class="body2">
 		<div class="main">
 <!-- header -->
 			<header>
 				<div class="wrapper">
-					<h1 style="color: white; font-size:36px; margin-top:18px;"><!-- <a href="index.html" id="logo">First</a> -->Храм Живоначальной Троицы города Реутов</h1>
+					<h1 style="color: white; font-size:36px; margin-top:18px;"><!-- <a href="index.html" id="logo">First</a> -->Троицкий храм города Реутов</h1>
 					<div class="right">
 						<nav>
 							<ul id="top_nav">
@@ -49,11 +49,11 @@
 				</div>
 				<nav id="menu">
 					<ul>
-						<li class="nav1" id="active"><a href="index.html">Главная</a></li>
-						<li class="nav2"><a href="News.html">Приход</a></li>
-						<li class="nav3"><a href="Services.html">Медиатека</a></li>
-						<li class="nav4"><a href="Products.html">Богослужение</a></li>
-						<li class="nav5"><a href="Contact.html">Контакты</a></li>
+						<li class="nav1" id="active"><a href="~/">Главная</a></li>
+						<li class="nav2"><a href="~/Home/About">Приход</a></li>
+						<li class="nav3"><a href="">Медиатека</a></li>
+						<li class="nav4"><a href="~/Home/Service">Богослужение</a></li>
+						<li class="nav5"><a href="~/Home/Contact">Контакты</a></li>
 					</ul>
 				</nav>
 			</header><div class="ic">More Website Templates at TemplateMonster.com!</div>
