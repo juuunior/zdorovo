@@ -1,51 +1,53 @@
 ﻿@{
     ViewBag.Title = "Контактная информация";
-    ViewBag.PageId = "page1";
+    ViewBag.PageId = "page5";
 }
-
-<hgroup class="title">
-    <h1>@ViewBag.Title.</h1>
-    <h2>@ViewBag.Message</h2>
-</hgroup>
-
-<section class="contact">
-    <header>
-        <h3>Phone</h3>
-    </header>
-    <p>
-        <span class="label">Main:</span>
-        <span>425.555.0100</span>
-    </p>
-    <p>
-        <span class="label">After Hours:</span>
-        <span>425.555.0199</span>
-    </p>
-</section>
-
-<section class="contact">
-    <header>
-        <h3>Email</h3>
-    </header>
-    <p>
-        <span class="label">Support:</span>
-        <span><a href="mailto:Support@example.com">Support@example.com</a></span>
-    </p>
-    <p>
-        <span class="label">Marketing:</span>
-        <span><a href="mailto:Marketing@example.com">Marketing@example.com</a></span>
-    </p>
-    <p>
-        <span class="label">General:</span>
-        <span><a href="mailto:General@example.com">General@example.com</a></span>
-    </p>
-</section>
-
-<section class="contact">
-    <header>
-        <h3>Address</h3>
-    </header>
-    <p>
-        One Microsoft Way<br />
-        Redmond, WA 98052-6399
-    </p>
-</section>
+<!-- content -->
+	<div class="body5">
+		<div class="body6">
+			<div class="main">
+				<div class="wrapper">
+					<figure class="left"><img src="~/images/letter5.png" alt=""></figure>
+					<h2>Мы с радостью ответим на <span>Ваши вопросы</span>!</h2>
+					Здесь вы можете задать вопрос о порядке и правилах перед участием в православных таинствах и обрядах, а так же задать интересующий вас вопрос, связанный с религиозной жизнью православного христианина.</div>
+			</div>
+		</div>
+	</div>
+	<div class="body7">
+		<div class="main">
+			<section id="content">
+				
+				<div class="wrapper">
+					<article class="col2">
+						<div class="pad1">
+							<h2>Контактная форма</h2>
+							<form id="ContactForm" method="post">
+								<div>
+									<div  class="wrapper">
+										<strong>Имя:</strong>
+										<div class="bg"><input type="text" class="input" ></div>
+									</div>
+									<div  class="wrapper">
+										<strong>Email:</strong>
+										<div class="bg"><input type="text" class="input" >	</div>							
+									</div>
+									<div  class="textarea_box">
+										<strong>Вопрос:</strong>
+										<div class="bg"><textarea name="textarea" cols="1" rows="1"></textarea>		</div>						
+									</div>
+									<a href="#" class="button" onClick="document.getElementById('ContactForm').submit()"><span><span>Отправить</span></span></a>
+									<a href="#" class="button" onClick="document.getElementById('ContactForm').reset()"><span><span>Очистить</span></span></a>
+								</div>
+							</form>
+						</div>	
+						
+					</article>
+					<article class="col1 pad_left1">
+					@Html.Partial("Hotlinks");
+					</article>
+				</div>
+				
+			</section>
+		</div>
+	</div>
+<!-- / content -->
