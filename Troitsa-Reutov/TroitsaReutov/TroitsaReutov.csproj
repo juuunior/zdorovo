@@ -260,6 +260,7 @@
     <Content Include="js\html5.js" />
     <Content Include="js\imagepreloader.js" />
     <Content Include="js\jquery-1.4.2.js" />
+    <Content Include="js\jquery-1.9.1.min.js" />
     <Content Include="js\jquery.nivo.slider.pack.js" />
     <Content Include="js\PIE.htc" />
     <Content Include="Scripts\jquery-1.7.1.js" />

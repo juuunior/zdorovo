@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="~/css/reset.css" type="text/css" media="all">
     <link rel="stylesheet" href="~/css/layout.css" type="text/css" media="all">
     <link rel="stylesheet" href="~/css/style.css" type="text/css" media="all">
-    <script type="text/javascript" src="~/js/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="~/js/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="~/js/cufon-yui.js"></script>
     <script type="text/javascript" src="~/js/cufon-replace.js"></script>
     <script type="text/javascript" src="~/js/CyrillicOld_700.font.js"></script>
@@ -49,7 +49,7 @@
 				</div>
 				<nav id="menu">
 					<ul>
-						<li class="nav1" id="active"><a href="~/">Главная</a></li>
+						<li class="nav1"><a href="~/">Главная</a></li>
 						<li class="nav2"><a href="~/Home/About">Приход</a></li>
 						<li class="nav3"><a href="~/">Медиатека</a></li>
 						<li class="nav4"><a href="~/Home/Service">Богослужение</a></li>
@@ -109,5 +109,12 @@
 	</div>
 </div>
     <script type="text/javascript"> Cufon.now(); </script>
+         <script type="text/javascript">
+             $(function () {
+         
+                 $('.@ViewBag.ActiveClass').attr('id', 'active');
+                 
+             });
+    </script>
 </body>
 </html>
