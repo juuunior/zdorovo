@@ -228,6 +228,7 @@
     <Content Include="Images\letter5.png" />
     <Content Include="Images\line_hor1.gif" />
     <Content Include="Images\line_ver1.gif" />
+    <Content Include="Images\listpoint.gif" />
     <Content Include="Images\logo.gif" />
     <Content Include="Images\marker_1.gif" />
     <Content Include="Images\marker_2.gif" />
