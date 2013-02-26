@@ -213,6 +213,7 @@
     <Content Include="Images\button2_bg.gif" />
     <Content Include="Images\button2_left.gif" />
     <Content Include="Images\button2_right.gif" />
+    <Content Include="Images\cross.png" />
     <Content Include="Images\footer_logo.gif" />
     <Content Include="Images\icon1.jpg" />
     <Content Include="Images\icon2.jpg" />
