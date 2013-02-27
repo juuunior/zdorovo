@@ -75,8 +75,7 @@
 				<div class="col_1">
 					<h3>Мы в соцсетях</h3>
 					<ul class="list3">
-						<li><a href="#">ВКонтакте</a></li>
-						<li><a href="#">Facebook</a></li>						
+						<li><a href="http://vk.com/troitsa_reutov">ВКонтакте</a></li>						
 						<li><a href="#">Блог настоятеля</a></li>
 					</ul>
 				</div>
@@ -84,26 +83,21 @@
 					<h3>Социальное служение</h3>
 					<div class="wrapper">
 						<ul class="list3 col_1">
-							<li><a href="#">Воскресная школа</a></li>
-							<li><a href="#">Больничные службы</a></li>
-							<li><a href="#">Дом престарелых</a></li>
-							<li><a href="#">Интернат №23</a></li>
+							@Html.Partial("SocialColumnOne")
 						</ul>
 						<ul class="list3 col_1 pad_left1">
-							<li><a href="#">Молодежка</a></li>
-							<li><a href="#">Воскресные чаепития</a></li>
-							<li><a href="#">Лекторий</a></li>
-							<li><a href="#">Кинозал</a></li>
+							@Html.Partial("SocialColumnTwo")
 						</ul>
 					</div>
 				</div>
 				<div class="col_3">
-					<a href="index.html" id="footer_logo">First</a>
+					@*<a href="index.html" id="footer_logo">First</a>*@
+                    <h3>Троицкий Храм</h3>
 					<p class="center"><a rel="nofollow" href="http://sorokin-web.ru/" target="_blank">Веб студия Сорокина</a><br>
-							при содействии </p>
-					<p class="center">
+							разработка сайта </p>
+					@*<p class="center">
 							<a href="http://www.d99.ru/" target="_blank">D99.ru</a><br>
-							продвижение сайтов</p>
+							продвижение сайтов</p>*@
 				</div>
 			</footer>
 		</div>
