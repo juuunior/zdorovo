@@ -39,7 +39,7 @@
 					<div class="box1"><div class="box1_bot"><div class="box1_top">
 						<div class="pad"><div class="pad1">
 							<h2 class="center">Миссия</h2>							
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+                            <p>Миссия Церкви в рамках приходского служения в православном понимании: экклезиологические и канонические обоснования</p>
 							<div class="wrapper center">
 								<a href="#" class="button"><span><span>Далее</span></span></a>
 							</div>
@@ -82,25 +82,17 @@
 									Внимая призыву нашего архипастыря, мы по силам, стараемся работать в различных сферах социального служения:</p>
 							<div class="wrapper line1 marg_bot1">
 								<ul class="col1 list1">
-									<li><a href="#">Воскресная школа</a></li>
-									<li><a href="#">Больничные службы</a></li>
-									<li><a href="#">Лекторий</a></li>
-									<li><a href="#">Богословский кужок</a></li>
-									<li><a href="#">Миссионерский молебен</a></li>
+									@Html.Partial("SocialColumnOne")
 								</ul>
 								<ul class="list1 pad_left1 left">
-									<li><a href="#">Чаепитие с батюшкой</a></li>
-									<li><a href="#">Молодежка</a></li>
-									<li><a href="#">Приходской листок</a></li>
-									<li><a href="#">Дом престарелых</a></li>
-									<li><a href="#">Кинозал</a></li>
+									@Html.Partial("SocialColumnTwo")
 								</ul>
 							</div>
 							<a href="#" class="button"><span><span>Далее</span></span></a>
 						</div>
 					</article>
 					<article class="col1 pad_left1">
-						@Html.Partial("Hotlinks");
+						@Html.Partial("Hotlinks")
 					</article>
 				</div>
 			</section>
