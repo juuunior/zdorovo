@@ -108,17 +108,12 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.Data.2.0.20710.0\lib\net40\WebMatrix.Data.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Web.WebPages.OAuth, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <Private>True</Private>
-      <HintPath>..\packages\Microsoft.AspNet.WebPages.OAuth.2.0.20710.0\lib\net40\Microsoft.Web.WebPages.OAuth.dll</HintPath>
-    </Reference>
     <Reference Include="WebMatrix.WebData, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.WebData.2.0.20710.0\lib\net40\WebMatrix.WebData.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Start\AuthConfig.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -201,6 +196,7 @@
     <Content Include="Images\bg_top3.jpg" />
     <Content Include="Images\bg_top3_repeat.jpg" />
     <Content Include="Images\bg_top_repeat.gif" />
+    <Content Include="Images\bird.png" />
     <Content Include="Images\box2_bot.gif" />
     <Content Include="Images\box2_repeat.gif" />
     <Content Include="Images\box2_top.gif" />
@@ -214,7 +210,10 @@
     <Content Include="Images\button2_left.gif" />
     <Content Include="Images\button2_right.gif" />
     <Content Include="Images\cross.png" />
+    <Content Include="Images\cup.png" />
+    <Content Include="Images\evangelie.png" />
     <Content Include="Images\footer_logo.gif" />
+    <Content Include="Images\golgofa.png" />
     <Content Include="Images\icon1.jpg" />
     <Content Include="Images\icon2.jpg" />
     <Content Include="Images\icon3.jpg" />
@@ -231,6 +230,7 @@
     <Content Include="Images\line_ver1.gif" />
     <Content Include="Images\listpoint.gif" />
     <Content Include="Images\logo.gif" />
+    <Content Include="Images\logocross.gif" />
     <Content Include="Images\marker_1.gif" />
     <Content Include="Images\marker_2.gif" />
     <Content Include="Images\marker_left.jpg" />
@@ -306,6 +306,8 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Service.cshtml" />
     <Content Include="Views\Home\Hotlinks.cshtml" />
+    <Content Include="Views\Home\SocialColumnOne.cshtml" />
+    <Content Include="Views\Home\SocialColumnTwo.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
