@@ -24,6 +24,16 @@ namespace TroitsaReutov.Controllers
             return View();
         }
 
+		public ActionResult Baptismo()
+		{
+			return View();
+		}
+
+		public ActionResult Burial()
+		{
+			return View();
+		}
+		
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
@@ -53,9 +63,43 @@ namespace TroitsaReutov.Controllers
 
         public ActionResult Service()
         {
-            ViewBag.Message = "Your service page.";
-
             return View();
         }
+
+		public ActionResult ServicesDescription()
+		{
+			return View();
+		}
+
+		public ActionResult ExtremeUnction()
+		{
+			return View();
+		}
+
+		public ActionResult Evharisto()
+		{
+			return View();
+		}
+
+		public ActionResult Wedding()
+		{
+			return View();
+		}
+
+		public ActionResult Conversation()
+		{
+			return View();
+		}
+
+		public ActionResult Confession()
+		{
+			return View();
+		}
+
+		public ActionResult Consecration()
+		{
+			return View();
+		}
+		
     }
 }

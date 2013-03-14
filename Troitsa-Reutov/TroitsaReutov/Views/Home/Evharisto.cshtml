@@ -1,0 +1,45 @@
+﻿@{
+    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+ }
+
+@{
+    ViewBag.Title = "Евхаристия";
+    ViewBag.PageId = "page5";
+    ViewBag.ActiveClass = "nav5";
+}
+
+<!-- content -->
+	<div class="body5">
+		<div class="body6">
+			<div class="main">
+				<div class="wrapper">
+					<figure class="left"><img src="~/images/letter5.png" alt=""></figure>
+				    <h2>Таинство <span>евхаристии</span>!</h2>
+					Краткое описание таинства, порядок совершения и современные традиции.</div>
+			</div>
+		</div>
+	</div>
+	<div class="body7">
+		<div class="main">
+			<section id="content">
+				
+				<div class="wrapper">
+					<article class="col2">
+						<div class="pad1">
+							<h2>О таинстве евхаристии</h2>
+						    
+						</div>	
+						
+					</article>
+					<article class="col1 pad_left1">
+					@Html.Partial("Hotlinks");
+					</article>
+				</div>
+				
+			</section>
+		</div>
+	</div>
+<!-- / content -->
+
+

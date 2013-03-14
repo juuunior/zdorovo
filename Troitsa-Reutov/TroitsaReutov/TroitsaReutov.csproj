@@ -179,6 +179,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="css\jquery-ui-1.10.1.custom.min.css" />
     <Content Include="css\layout.css" />
     <Content Include="css\reset.css" />
     <Content Include="css\style.css" />
@@ -261,8 +262,8 @@
     <Content Include="js\CyrillicOld_700.font.js" />
     <Content Include="js\html5.js" />
     <Content Include="js\imagepreloader.js" />
-    <Content Include="js\jquery-1.4.2.js" />
     <Content Include="js\jquery-1.9.1.min.js" />
+    <Content Include="js\jquery-ui-1.10.1.custom.js" />
     <Content Include="js\jquery.nivo.slider.pack.js" />
     <Content Include="js\PIE.htc" />
     <Content Include="Scripts\jquery-1.7.1.js" />
@@ -308,6 +309,15 @@
     <Content Include="Views\Home\Hotlinks.cshtml" />
     <Content Include="Views\Home\SocialColumnOne.cshtml" />
     <Content Include="Views\Home\SocialColumnTwo.cshtml" />
+    <Content Include="Views\Home\Baptismo.cshtml" />
+    <Content Include="Views\Home\Burial.cshtml" />
+    <Content Include="Views\Home\ServicesDescription.cshtml" />
+    <Content Include="Views\Home\ExtremeUnction.cshtml" />
+    <Content Include="Views\Home\Evharisto.cshtml" />
+    <Content Include="Views\Home\Consecration.cshtml" />
+    <Content Include="Views\Home\Wedding.cshtml" />
+    <Content Include="Views\Home\Conversation.cshtml" />
+    <Content Include="Views\Home\Confession.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
