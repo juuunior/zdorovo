@@ -8,7 +8,10 @@
     <link rel="stylesheet" href="~/css/style.css" type="text/css" media="all">
     <link rel="icon" href="~/favicon.ico" type="image/x-icon"> 
     <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon"> 
+    <link href="~/css/jquery-ui-1.10.1.custom.min.css" rel="stylesheet" />
     <script type="text/javascript" src="~/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="~/js/jquery-ui-1.10.1.custom.js"></script>
+    
     <script type="text/javascript" src="~/js/cufon-yui.js"></script>
     <script type="text/javascript" src="~/js/cufon-replace.js"></script>
     <script type="text/javascript" src="~/js/CyrillicOld_700.font.js"></script>
@@ -32,23 +35,26 @@
 		<div class="main">
 <!-- header -->
 			<header>
-				<div class="wrapper">
-					<img src="~/Images/cross.png" style="float:left; margin-top:10px;" /><h1 style="color: white; font-size:36px; margin-top:15px;">@*<a href="index.html" id="logo"></a>*@Троицкий храм города Реутов</h1>
-					<div class="right">
-						<nav>
-							<ul id="top_nav">
-								<li><a href="#">Помощь храму</a></li>
-								<li><a href="#">Карта сайта</a></li>
-							</ul>
-							<form id="search" method="post">
-								<div>
-									<input type="submit" class="submit" value="">
-									<input type="text" class="input">
-								</div>
-							</form>
-						</nav>
-					</div>
-				</div>
+			    <div class="wrapper">
+			        <img src="~/Images/cross.png" style="float:left; margin-top:10px;" /><h1 style="color: white; font-size:36px; margin-top:15px;">@*<a href="index.html" id="logo"></a>*@Троицкий храм города Реутов</h1>
+			        <div class="right">
+			            <nav>
+			                <ul id="top_nav">
+			                    <li><a id="helplink" style="cursor:pointer" onclick="$('#help').dialog({ position: { my: 'left top', at: 'left bottom', of: '#helplink' } });">Помощь храму</a></li>
+			                    <li><a href="#">Карта сайта</a></li>
+			                </ul>
+                            <div id="help" title="Пожертвования храму" style="display: none; background-color:beige">
+			                    <p>Здесь будет контактная информация о банковских реквизитах<p>
+			                </div>
+			                <form id="search" method="post">
+			                    <div>
+			                        <input type="submit" class="submit" value="">
+			                        <input type="text" class="input">
+			                    </div>
+			                </form>
+			            </nav>
+			        </div>
+			    </div>
 				<nav id="menu">
 					<ul>
 						<li class="nav1"><a href="~/">Главная</a></li>
@@ -105,12 +111,19 @@
 	</div>
 </div>
     <script type="text/javascript"> Cufon.now(); </script>
-         <script type="text/javascript">
-             $(function () {
+        <script type="text/javascript">
+            $(function () {
          
-                 $('.@ViewBag.ActiveClass').attr('id', 'active');
+                $('.@ViewBag.ActiveClass').attr('id', 'active');
                  
-             });
-    </script>
-</body>
+            });
+            
+            //$(function () {
+                
+            //    $("#help").dialog();
+                
+            //});
+
+        </script>
+    </body>
 </html>
