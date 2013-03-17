@@ -337,6 +337,7 @@
     <Content Include="Views\Home\Wedding.cshtml" />
     <Content Include="Views\Home\Conversation.cshtml" />
     <Content Include="Views\Home\Confession.cshtml" />
+    <Content Include="Views\Home\Praying.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

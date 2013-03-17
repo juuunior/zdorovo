@@ -100,6 +100,10 @@ namespace TroitsaReutov.Controllers
 		{
 			return View();
 		}
+        public ActionResult Praying()
+        {
+            return View();
+        }
 		
     }
 }
