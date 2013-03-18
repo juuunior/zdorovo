@@ -10,17 +10,28 @@
     <li><a href="~/Home/Burial"><img src="~/images/golgofa.png" alt="">Отпевание</a></li>
 </ul>
 <div class="box1">
+    <script language="Javascript" src="http://script.days.ru/calendar.php?advanced=1&amp;dayicon=1&amp;short=1&amp;images=1"></script>
     <div class="box1_bot">
         <div class="box1_top">
             <div class="pad">
-                <h2>Приходской лист</h2>
-                Подписаться на ежемесячную рассылку:
-								<form id="sign_up" method="post">
+                <h2>Календарь</h2>
+                <b><script language="Javascript">print_post(); </script></b><br/>
+                <script language="Javascript">print_day();</script><br/>
+                <script language="Javascript">print_holiday();</script><br/>
+                <script language="Javascript">print_trapeza();</script><br/>
+                <script language="Javascript" src="http://script.days.ru/icon.php?advanced=1"></script>
+                <script language="Javascript">print_img();</script><br/>
+                <script language="Javascript">print_podpis();</script><br/>
+                @*<script language="Javascript">print_saints();</script><br/>*@
+                <script language="Javascript">print_chten();</script><br/>
+                
+                @*<form id="sign_up" method="post">
                                     <div>
                                         <input type="text" class="input">
                                         <a href="#" onclick="document.getElementById('sign_up').submit()">Подписаться</a>
                                     </div>
-                                </form>
+                                </form>*@
+
             </div>
         </div>
     </div>

@@ -338,6 +338,8 @@
     <Content Include="Views\Home\Conversation.cshtml" />
     <Content Include="Views\Home\Confession.cshtml" />
     <Content Include="Views\Home\Praying.cshtml" />
+    <Content Include="Views\Home\Media.cshtml" />
+    <Content Include="Views\Home\Lection.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
