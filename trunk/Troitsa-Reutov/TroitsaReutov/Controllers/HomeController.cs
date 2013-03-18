@@ -104,6 +104,14 @@ namespace TroitsaReutov.Controllers
         {
             return View();
         }
+		public ActionResult Lection()
+		{
+			return View();
+		}
+		public ActionResult Media()
+		{
+			return View();
+		}
 		
     }
 }
