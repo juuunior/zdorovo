@@ -276,6 +276,7 @@
     <Content Include="Images\text3.jpg" />
     <Content Include="Images\textarea.gif" />
     <Content Include="Images\tikhon.jpg" />
+    <Content Include="Images\venec.png" />
     <Content Include="js\cufon-replace.js" />
     <Content Include="js\cufon-yui.js" />
     <Content Include="js\CyrillicOld_700.font.js" />
