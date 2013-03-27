@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ChirchServices">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="TimetableServices" type="timetable" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="timetable">
+    <xs:sequence>
+      <xs:element name="date" minOccurs="1" maxOccurs="1" type="xs:date">        
+      </xs:element>      
+      <xs:element name="megadescription" minOccurs="1" maxOccurs="1" type="xs:string">
+      </xs:element>
+      <xs:element name="time" minOccurs="1" maxOccurs="1" type="xs:time">
+      </xs:element>
+      <xs:element name="eventdesciption" minOccurs="1" maxOccurs="1" type="xs:string">
+      </xs:element>
+    </xs:sequence>    
+  </xs:complexType>
+  
+</xs:schema>
