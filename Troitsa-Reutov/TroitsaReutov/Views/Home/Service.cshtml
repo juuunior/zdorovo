@@ -1,4 +1,5 @@
-﻿@{
+﻿@model ChirchServices
+@{
     ViewBag.Title = "Богослужение";
     Layout = "~/Views/Shared/_Layout.cshtml";
     ViewBag.ActiveClass = "nav4";
@@ -20,149 +21,37 @@
 			<section id="content">
 				<div class="wrapper">
 					<article class="col2">
-						<div class="pad1">
-							<h2>Расписание на <span>МАРТ</span> месяц:</h2>
-							<div class="wrapper">
-								<figure class="left"><img src="~/images/marker_1.gif" alt=""></figure>
-								<div class="cols">
-									<p><span class="font1"><strong>22.02.2011</strong>  <a href="#">At vero eos et accusamus et iusto odio dignissimos</a></span>
-									Quas molestias excepturi sint occaecati cupiditate non provident, similique suntulpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-								</div>
-							</div>
-							<div class="wrapper">
-								<figure class="left"><img src="~/images/marker_1.gif" alt=""></figure>
-								<div class="cols">
-									<p><span class="font1"><strong>10.02.2011 </strong>  <a href="#">Eque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur</a></span>
-									Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus idod maxime placeat facere possimus, omnis voluptas assumenda.</p>
-								</div>
-							</div>
-							<div class="wrapper">
-								<figure class="left"><img src="~/images/marker_1.gif" alt=""></figure>
-								<div class="cols">
-									<p><span class="font1"><strong>29.01.2011 </strong>  <a href="#">Utenim ad minima veniam, quis nostrum exercitationem ullam<br>
-									</a></span>
-									Eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaquarum rerum hic tenetur a sapiente delectusut aut reiciendis.</p>
-								</div>
-							</div>
-						    <div class="wrapper pad_bot1">
-						        <figure class="left"><img src="~/images/marker_1.gif" alt=""></figure>
-						        <div class="cols">
-						            <p><span class="font1"><strong>23.01.2011 </strong>  <a href="#">Quis autem vel eum iure reprehenderit</a></span>
-						                Voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquaenim ad minim veniam.</p>
-						        </div>
-						    </div>
-
-                            <div class="wrapper pad_bot1">
-                                <figure class="left">
-                                    <img src="~/images/marker_1.gif" alt=""></figure>
-                                <div class="cols">
-                                    Суббота 02 марта 
-                                    Вмч. Феодора Тирона (306). Сщмч. Ермогена, Патриарха Московского и всея России, чудотворца (1612) 
-                                    16.00 Исповедь 
-                                    17.00 Всенощное бдение 
-                                </div>
-                            </div>
-
-                            Воскресенье 03 марта 
- Неделя о блудном сыне. Свт. Льва, Папы Римского (461) 
- 9.00 Божественная литургия 
- 
-Четверг 07 марта 
- Обретение мощей мучеников, иже во Евгении (395-423) 
- 16.00 Исповедь 
- 17.00 Полиелей 
- 
-Пятница 08 марта 
- Первое и второе обретение главы Иоанна Предтечи. Сщмч. Поликарпа, еп. Смирнского (167) 
- 9.00 Божественная литургия 
- 17.00 Вечернее богослужение 
- 
-Суббота 09 марта 
- Вселенская родительская (мясопустная) суббота. 
- 9.00 Божественная литургия. Панихида 
- 16.00 Исповедь 
- 17.00 Всенощное бдение 
- 
-Воскресенье 10 марта 
- Неделя о Страшном суде. Заговенье на мясо. 
- 9.00 Божественная литургия 
- 
-Пятница 15 марта 
- Иконы Божией матери, именуемой "Державная" (1917). 
- 17.00 Молебен c водосвятием. Исповедь 
- 
-Суббота 16 марта 
- Всех преподобных отцов, в подвиге просиявших. 
- 9.00 Божественная литургия. Панихида 
- 16.00 Исповедь 
- 17.00 Всенощное бдение 
- 
-Воскресенье 17 марта 
- Неделя сыропустная. Прощеное воскресенье. Заговенье на Великий пост. 
- 9.00 Божественная литургия. Вечерня с чином прощения. 
- 
-Понедельник 18 марта 
- Седмица 1-я Великого Поста. Обретение мощей блгв. князей Феодора Смоленского и чад его Давида и Константина, Ярославских чудотворцев (1463). 
- 8.00 Утренне богослужение 
- 18.00 Великое повечерие с чтением Канона прп. Андрея Критского. 
- 
-Вторник 19 марта 
- Мч. 42-х во Амморее Константина, Аетия, Феофила, Феодора, Мелиссена, Каллиста, Васоя и прочих с ними (ок. 845). 
- 8.00 Утренне богослужение 
- 16.00 Исповедь 
- 18.00 Великое повечерие с чтением Канона прп.Андрея Критского. 
- 
-Среда 20 марта 
- Священномучеников, в Херсонесе епископствовавших: Василия, Ефрема, Капитона, Евгения, Еферия, Елпидия и Агафодора (IV) 
- 8.00 Утреннее богослужение с литургией Преждеосвященных даров. 
- 18.00 Великое повечерие с чтением Канона прп. Aндрея Критского. 
- 
-Четверг 21 марта 
- Прп. Феофилакта исп., еп. Никомидийского (842-845). 
- 8.00 Утреннее богослужение 
- 16.00 Исповедь 
- 18.00 Великое повечерие с чтением Канона прп.Андрея Критского. 
- 
-Пятница 22 марта 
- Св. Кесария, брата свт. Григория Богослова (ок. 369) 
- 8.00 Литургия Преждеосвященных даров. Освящение и раздача колива. 
- 16.00 Исповедь 
- 17.00 Полиелей 
- 
-Суббота 23 марта 
- 40 мучеников, в Севастийском озере мучившихся. 
- 9.00 Божественная литургия 
- 15.00 Исповедь 
- 17.00 Всенощное бдение 
- 
-Воскресенье 24 марта 
- Неделя 1-я Великого поста. Торжество Православия. Прп.Димитрия Прилуцкого, Вологодского. 
- 9.00 Божественная литургия. Благодарственный молебен 
- 
-Четверг 28 марта 
- Мч. Агапия и с ним семи мучеников. 
- 17.00 Исповедь 
- 
-Пятница 29 марта 
- Мч. Савина (287). Мч. Папы (305-311). 
- 9.00 Утреннее богослужение с литургией Преждеосвященных даров. 
- 17.00 Вечернее богослужение. 
- 
-Суббота 30 марта 
- Поминовение усопших. Прп. Алексия, человека Божия (411). 
- 9.00 Божественная литургия 
- 15.00 Исповедь 
- 17.00 Всенощное бдение 
- 
-Воскресенье 31 марта 
- Неделя 2-я Великого поста. Свт. Григория Паламы, архиеп. Солунского. Свт. Кирилла, архиеп. Иерусалимского (386) 
- 9.00 Божественная литургия
-
-</div>
+					    <div class="pad1">
+					        <h2>Расписание на <span>МАРТ</span> месяц:</h2>
+                            <table style="border: 1px solid black">
+                            @foreach (var dateGroup in Model.TimetableServices.GroupBy(t=>t.date).OrderBy(t=>t.Key.Ticks))
+                            {
+                                if (dateGroup.Key >= DateTime.Now.Date)
+                                 {
+                                     <tr style="border-bottom: 1px solid black">
+                                         <td style="border-right: 1px solid black; width:20%;"><h1>@dateGroup.Key.ToString("m")</h1></td>
+                                         <td style="border-right: 1px solid black; padding:10px;  text-align:center">@dateGroup.FirstOrDefault().megadescription</td>
+                                         <td style="width:30%">
+                                             <table>
+                                                 @foreach (var day in dateGroup.OrderBy(t => t.time.Ticks))
+                                                 {
+                                                     <tr>
+                                                         <td>
+                                                             @day.time.ToString("HH:mm") <span>-</span> @day.eventdesciption <br/>            
+                                                         </td>
+                                                     </tr>
+                                                 }
+                                             </table>
+                                         </td>
+                                     </tr>
+                                 }
+                            }
+                            </table>
+					    </div>
 					</article>
 					<article class="col1 pad_left1">
 					@Html.Partial("Hotlinks");
-					</article></section>
+					</article></div></section>
 		</div>
 		@*		<div class="wrapper">
 				<article class="col1">

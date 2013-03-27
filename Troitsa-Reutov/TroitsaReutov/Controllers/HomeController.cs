@@ -1,10 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Threading;
 using System.Web;
 using System.Net.Mail;
 using System.Web.Mvc;
+using System.Xml.Serialization;
 
 namespace TroitsaReutov.Controllers
 {
@@ -63,7 +67,20 @@ namespace TroitsaReutov.Controllers
 
         public ActionResult Service()
         {
-            return View();
+			Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("ru-RU");
+
+			var xser = new XmlSerializer(typeof(ChirchServices));
+
+			ChirchServices timetable;
+			
+			using (var strm = System.IO.File.Open(Request.PhysicalApplicationPath+"test.xml",FileMode.Open))
+	        
+			{
+				timetable = (ChirchServices)xser.Deserialize(strm);
+			}
+
+
+			return View(timetable);
         }
 
 		public ActionResult ServicesDescription()
