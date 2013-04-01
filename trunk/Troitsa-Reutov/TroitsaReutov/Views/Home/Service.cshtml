@@ -12,7 +12,7 @@
 				<div class="wrapper">
 					<figure class="left"><img src="~/images/temple.png" alt=""></figure>
 					<h2>Свежая информация о расписнии <span>церковных служб</span></h2>
-					Здесь наверное будет какой-то текст.
+					«В храме вы - перед Лицом Божества! ... Ходите чаще в церковь, дети! Молитесь от всего сердца. Молитва - вода живая, душа ею утоляет жажду свою» Св.прав. Иоанн Кронштадтский. 
 				</div>
 			</div>
 		</div>
@@ -23,7 +23,7 @@
 				<div class="wrapper">
 					<article class="col2">
 					    <div class="pad1">
-					        <h2>Расписание на <span>ближайшие</span>дни</h2>
+					        <h2>Расписание на <span>ближайшие</span>дни:</h2>
                             <table style="border: 1px solid black">
                             @foreach (var dateGroup in Model.TimetableServices.GroupBy(t=>t.date).OrderBy(t=>t.Key.Ticks))
                             {
@@ -53,9 +53,9 @@
                                              <table style="width:100%">
                                                  @foreach (var day in dateGroup.OrderBy(t => t.time.Ticks))
                                                  {
-                                                     <tr style="border-top : 1px solid black">
+                                                     <tr style="text-align:left">
                                                          <td>
-                                                             @day.time.ToString("HH:mm") <span>-</span> @day.eventdesciption <br/>            
+                                                            <b>@day.time.ToString("HH:mm")</b> <span>-</span> @day.eventdesciption <br/>            
                                                          </td>
                                                      </tr>
                                                  }

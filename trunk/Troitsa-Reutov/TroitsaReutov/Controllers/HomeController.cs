@@ -40,7 +40,7 @@ namespace TroitsaReutov.Controllers
 		
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Контактная информация";
 
 			
 			if (!String.IsNullOrEmpty(Request["SenderName"]) && !String.IsNullOrEmpty(Request["SenderEmail"]) && !String.IsNullOrEmpty(Request["SenderMessage"]))
@@ -48,12 +48,12 @@ namespace TroitsaReutov.Controllers
 				ViewBag.Message = "Your contact page.";
 
 				System.Net.Mail.SmtpClient client = new System.Net.Mail.SmtpClient("smtp.mail.ru", 25);
-				
-				client.Credentials= new NetworkCredential("juuunior@inbox.ru", "victory2000");
+
+				client.Credentials = new NetworkCredential("troitsa-reutov@mail.ru", "t1r1o1i1t1s1a1");
 
 				MailMessage Message = new MailMessage();
-				Message.From = new MailAddress("juuunior@inbox.ru");
-				Message.To.Add(new MailAddress("juuunior@mail.ru"));
+				Message.From = new MailAddress("troitsa-reutov@mail.ru");
+				Message.To.Add(new MailAddress("troitsareutov@gmail.com"));
 				Message.Subject = "Сообщение с сайта Троицкого храма от: " + Request["SenderName"];
 				Message.Body = Request["SenderMessage"] + Request["SenderEmail"];
 
