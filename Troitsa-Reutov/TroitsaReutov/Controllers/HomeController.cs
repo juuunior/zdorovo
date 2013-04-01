@@ -68,6 +68,7 @@ namespace TroitsaReutov.Controllers
         public ActionResult Service()
         {
 			Thread.CurrentThread.CurrentCulture = CultureInfo.CreateSpecificCulture("ru-RU");
+			Thread.CurrentThread.CurrentUICulture = CultureInfo.CreateSpecificCulture("ru-RU");
 
 			var xser = new XmlSerializer(typeof(ChirchServices));
 

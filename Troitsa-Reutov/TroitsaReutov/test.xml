@@ -62,8 +62,188 @@
 	</service>
 	<service>
 		<date>2013-04-09</date>
-		<megadescription>Мц. Матроны Солунской (Ш-IV).</megadescription>
+		<megadescription>Мц. Матроны Солунской (III-IV).</megadescription>
 		<time>08:00:00.000</time>
 		<eventdesciption>Утреннее богослужение, Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-09</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-10</date>
+		<megadescription>Прмч. Евстратия Печерского (1097).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-11</date>
+		<megadescription>Мчч. Марка, еп.Арефусийского, Кирилла диакона и иных многих (ок.363).  </megadescription>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-12</date>
+		<megadescription>Прп. Иоанна Лествичника (649).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-12</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечерние богослужение</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-13</date>
+		<megadescription>Поминовение усопших. Свт.Ионы, митр. Московского (1461)</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Божественная литургия. Панихида   </eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-13</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Исповедь</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-13</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Всенощное бдение.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-14</date>
+		<megadescription>Неделя 4-я Великого поста. Прп. Иоанна Лествичника (649).</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Божественная литургия. </eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-16</date>
+		<megadescription>Прп. Никиты исп., игумена Мидикийского (824).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреннее богослужение.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-16</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-17</date>
+		<megadescription>Прп. Иосифа песнописца (883).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-17</date>
+		<megadescription/>
+		<time>18:00:00.000</time>
+		<eventdesciption>Чтение Великого канона прп.Андрея Критского (стояние прп.Марии Египетской).</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-18</date>
+		<megadescription>Мчч.Агафопода диакона, Феодула чтеца и иже с ними (ок.303)</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-18</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-19</date>
+		<megadescription>Свт. Мефодия, архиеп.Моравского (885).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-19</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Исповедь</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-19</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Утреня с чтением акафиста Пресвятой Богородице.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-20</date>
+		<megadescription>Похвала Пресвятой Богородицы (Суббота Акафиста)</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Божественная литургия. Водосвятный молебен.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-20</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Исповедь</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-20</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Всенощное бдение.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-21</date>
+		<megadescription>Неделя 5-я Великого поста. Прп. Марии Египетской.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Божественная литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-23</date>
+		<megadescription>Мчч. Терентия, Помпия, Африкана, Максима, Зинона, Александра, Феодора и иных 33-х (ок.249-251).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреннее богослужение. Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-23</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-24</date>
+		<megadescription>Сщмч. Антипы, еп. Пергама Асийского (ок.68).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-25</date>
+		<megadescription>Прп. Василия исп., еп. Парийского (после 754).</megadescription>
+		<time>16:00:00.000</time>
+		<eventdesciption>Великое повечерие. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-26</date>
+		<megadescription>Сщмч. Артемона, пресвитера Лаодикийского (303).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-26</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Исповедь</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-26</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение.</eventdesciption>
+	</service>
+	<service>
+		<date>2013-04-27</date>
+		<megadescription>Лазарева суббота. Воскрешение праведного Лазаря.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Божественная литургия.</eventdesciption>
 	</service>
 </services>
