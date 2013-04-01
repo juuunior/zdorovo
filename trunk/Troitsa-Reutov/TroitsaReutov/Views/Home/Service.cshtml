@@ -1,4 +1,5 @@
-﻿@model ChirchServices
+﻿@using System.Globalization
+@model ChirchServices
 @{
     ViewBag.Title = "Богослужение";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -22,20 +23,37 @@
 				<div class="wrapper">
 					<article class="col2">
 					    <div class="pad1">
-					        <h2>Расписание на <span>АПРЕЛЬ</span> месяц:</h2>
+					        <h2>Расписание на <span>ближайшие</span>дни</h2>
                             <table style="border: 1px solid black">
                             @foreach (var dateGroup in Model.TimetableServices.GroupBy(t=>t.date).OrderBy(t=>t.Key.Ticks))
                             {
+                                CultureInfo culture = CultureInfo.CreateSpecificCulture("ru-RU");
+                                
                                 if (dateGroup.Key >= DateTime.Now.Date)
                                  {
-                                     <tr style="border-bottom: 1px solid black">
-                                         <td style="border-right: 1px solid black; width:20%;"><h1>@dateGroup.Key.ToString("m")</h1></td>
-                                         <td style="border-right: 1px solid black; padding:10px;  text-align:center">@dateGroup.FirstOrDefault().megadescription</td>
+                                     <tr style="border-bottom: 1px solid black; text-align:center; vertical-align:middle">
+                                         <td style="border-right: 1px solid black; width:20%; text-align:center; vertical-align:middle">
+                                             @if (dateGroup.Key.DayOfWeek==DayOfWeek.Sunday)
+                                             {
+                                                 <b style="color:red">@dateGroup.Key.ToString("dddd") <br />   @dateGroup.Key.ToString("dd MMMM", culture)</b>
+                                             }
+                                             else
+                                             {
+                                                 <b style="color:darkblue">@dateGroup.Key.ToString("dddd") <br />   @dateGroup.Key.ToString("dd MMMM", culture)</b>
+                                             }
+                                         </td>
+                                         <td style="border-right: 1px solid black; padding:10px;  text-align:center">
+                                             @{
+                                                 timetable firstOrDefault = dateGroup.FirstOrDefault();
+                                                 if (firstOrDefault != null){@firstOrDefault.megadescription}
+                                             }
+                                             
+                                         </td>
                                          <td style="width:30%">
-                                             <table>
+                                             <table style="width:100%">
                                                  @foreach (var day in dateGroup.OrderBy(t => t.time.Ticks))
                                                  {
-                                                     <tr>
+                                                     <tr style="border-top : 1px solid black">
                                                          <td>
                                                              @day.time.ToString("HH:mm") <span>-</span> @day.eventdesciption <br/>            
                                                          </td>
