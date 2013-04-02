@@ -1,0 +1,50 @@
+﻿@{
+    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}images/temple.png
+
+@{
+    ViewBag.Title = "Библиотека избранных творений";
+    ViewBag.PageId = "page1";
+    ViewBag.ActiveClass = "nav1";
+}
+
+<!-- content -->
+<div class="body5">
+    <div class="body6">
+        <div class="main">
+            <div class="wrapper">
+                <figure class="left">
+                    <img src="~/images/temple.png" alt=""></figure>
+                <h2>Библиотека избранных творений и статей</h2>
+                "Наконец, братия мои, что только истинно, что честно, что справедливо, что чисто, что любезно, что достославно, что только добродетель и похвала, о том помышляйте" (Флп 4:8)
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body7">
+    <div class="main">
+        <section id="content">
+
+            <div class="wrapper">
+                <article class="col2">
+                    <div class="pad1">
+                        <h2>О тех, кто делает замечания в храме</h2>
+                        
+
+                    </div>
+
+                </article>
+                <article class="col1 pad_left1">
+                    @Html.Partial("Hotlinks");
+                </article>
+            </div>
+
+        </section>
+    </div>
+</div>
+<!-- / content -->
+
+
+
+
