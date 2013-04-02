@@ -1,0 +1,50 @@
+﻿@{
+    
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}images/temple.png
+
+@{
+    ViewBag.Title = "Библиотека богослужебных текстов";
+    ViewBag.PageId = "page1";
+    ViewBag.ActiveClass = "nav1";
+}
+
+<!-- content -->
+<div class="body5">
+    <div class="body6">
+        <div class="main">
+            <div class="wrapper">
+                <figure class="left">
+                    <img src="~/images/temple.png" alt=""></figure>
+                <h2>Библиотека богослужебных текстов</h2>
+                 «Сия же есть жизнь вечная, да знают Тебя, единого истинного Бога, и посланного Тобою Иисуса Христа» (Ин. 17:3).
+            </div>
+        </div>
+    </div>
+</div>
+<div class="body7">
+    <div class="main">
+        <section id="content">
+
+            <div class="wrapper">
+                <article class="col2">
+                    <div class="pad1">
+                        <h2>Молитвослов с переводом на русский язык</h2>
+                        <h2>Избранные тексты богослужения Великого поста и Страстной недели</h2>
+                        
+                    </div>
+
+                </article>
+                <article class="col1 pad_left1">
+                    @Html.Partial("Hotlinks");
+                </article>
+            </div>
+
+        </section>
+    </div>
+</div>
+<!-- / content -->
+
+
+
+

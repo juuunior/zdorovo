@@ -55,7 +55,7 @@ namespace TroitsaReutov.Controllers
 				Message.From = new MailAddress("troitsa-reutov@mail.ru");
 				Message.To.Add(new MailAddress("troitsareutov@gmail.com"));
 				Message.Subject = "Сообщение с сайта Троицкого храма от: " + Request["SenderName"];
-				Message.Body = Request["SenderMessage"] + Request["SenderEmail"];
+				Message.Body = Request["SenderMessage"] +"     \r\n"+ Request["SenderEmail"];
 
 				client.Send(Message);
 				client.Dispose();
@@ -127,6 +127,14 @@ namespace TroitsaReutov.Controllers
 			return View();
 		}
 		public ActionResult Media()
+		{
+			return View();
+		}
+		public ActionResult Hymnography()
+		{
+			return View();
+		}
+		public ActionResult Library()
 		{
 			return View();
 		}

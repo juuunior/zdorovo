@@ -354,6 +354,8 @@
     <None Include="timetable.xsd">
       <SubType>Designer</SubType>
     </None>
+    <Content Include="Views\Home\Library.cshtml" />
+    <Content Include="Views\Home\Hymnography.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
