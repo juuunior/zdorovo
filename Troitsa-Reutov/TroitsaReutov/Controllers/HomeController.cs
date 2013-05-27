@@ -9,6 +9,7 @@ using System.Web;
 using System.Net.Mail;
 using System.Web.Mvc;
 using System.Xml.Serialization;
+using System.Net.Http;
 
 namespace TroitsaReutov.Controllers
 {
@@ -128,6 +129,30 @@ namespace TroitsaReutov.Controllers
 		}
 		public ActionResult Media()
 		{
+
+            string _address = "https://oauth.vk.com/token?grant_type=password&client_id=3573991&client_secret=XyilPaO8wX9ec4eQIuX2&angelina.gu@mail.ru&password=P@ssw0rd&scope=photos&test_redirect_uri=1";
+
+            HttpClient client = new HttpClient();
+
+            // Send a request asynchronously continue when complete 
+            client.GetAsync(_address).ContinueWith(
+                (requestTask) =>
+                {
+                    // Get HTTP response from completed task. 
+                    HttpResponseMessage response = requestTask.Result;
+
+                    // Check that response was successful or throw exception 
+                    response.EnsureSuccessStatusCode();
+
+                    // Read response asynchronously as JsonValue and write out top facts for each country 
+                    response.Content.ToString();
+                });
+
+               
+
+
+
+
 			return View();
 		}
 		public ActionResult Hymnography()
