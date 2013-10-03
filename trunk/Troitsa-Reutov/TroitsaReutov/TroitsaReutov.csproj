@@ -239,6 +239,8 @@
     <Content Include="Praying\Службы святым\свщмч.Константину Богородскому.doc" />
     <Content Include="Praying\Службы святым\свщмч.Роману Московскому.doc" />
     <Content Include="Praying\Службы святым\святых Царственных страстотерпец.doc" />
+    <Content Include="Library\Апология\о причащении.doc" />
+    <Content Include="Library\Апология\ЭКО.doc" />
     <None Include="Properties\PublishProfiles\hostingasp.pubxml" />
     <None Include="Properties\PublishProfiles\parking.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
