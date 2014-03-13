@@ -1,0 +1,110 @@
+﻿@{
+    ViewBag.Title = "Троицкий храм города Реутов";
+    ViewBag.PageId = "page1";
+    ViewBag.ActiveClass = "nav1";
+}
+@section featured {
+ 
+<div class="body3">
+		<div class="body4">
+			<div class="main">
+				<!-- <div class="slogan">
+					<div id="slider">
+						<img src="images/text1.jpg" alt="">	
+						<img src="images/text2.jpg" alt="">	
+						<img src="images/text3.jpg" alt="">				
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+  
+}
+<script>
+        tinymce.init({selector:'textarea'});
+</script>
+
+	<div class="body5">
+		<div class="body6">
+			<div class="main">
+				<div class="wrapper">
+					<figure class="left"><img src="~/images/temple.png" alt=""></figure>
+					<h2>Приходите в храм,<span> мы Вам рады</span>!</h2>
+					В&nbsp;Троицком храме мы прославляем Бога через православное богослужение, искреннюю любовь и заботу друг о друге и служение ближним.
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="body7">
+		<div class="main">
+			<section id="content">
+				<div class="wrapper">
+				<article class="col1">
+					<div class="box1"><div class="box1_bot"><div class="box1_top">
+						<div class="pad"><div class="pad1">
+							<h2 class="center">Библиотека</h2>							
+                            <p>Избранные святоотеческие творения, статьи современных богословов, а также ссылки и иные полезные ресурсы православного рунета.</p>
+							<div class="wrapper center">
+								<a href="~/Home/Library" class="button"><span><span>Далее</span></span></a>
+							</div>
+						</div></div>
+					</div></div></div>
+        		</article>
+				<article class="col1 pad_left1">
+					<div class="box1"><div class="box1_bot"><div class="box1_top">
+						<div class="pad">
+								<div class="pad1">
+							<h2 class="center">Молитвослов</h2>
+							<p>В данном разделе доступны тексты молитв и песнопений, которые используются в богослужебной практике Православной Церкви.</p>
+							<div class="wrapper center">
+								<a href="~/Home/Hymnography" class="button"><span><span>Далее</span></span></a>
+							</div>
+						</div></div>
+					</div></div></div>
+        		</article>
+				<article class="col1 pad_left1">
+					<div class="box1"><div class="box1_bot"><div class="box1_top">
+						<div class="pad">
+								<div class="pad1">
+							<h2 class="center">Вопросы</h2>
+							<p>В этом разделе можно увидеть ответы на вопросы, которые задают прихожане храма, а также посетители сайта. Вы также  можете задать свой вопрос.</p>
+							<div class="wrapper center">
+								<a href="~/Home/Contact" class="button"><span><span>Далее</span></span></a>
+							</div>
+						</div></div>
+					</div></div></div>
+        		</article>
+				</div>
+
+              
+				<div class="wrapper">
+					<article class="col2">
+						<div class="pad1">
+							<h2>Основные направления деятельности</h2>
+							<p class="pad_bot1">
+                               По слову митрополита Ювеналия нашей целью является не только открытие и реставрация храмов, но и возобновление всех форм социального служения, которые были традиционно присущи Церкви на протяжении всей ее истории.
+                               Нынешние задачи, в основном сосредоточены в сфере просвещения и воспитания. Мало крестить людей, надо объяснять им суть нашей веры и учить их тому, как жить по Евангелию.</p>
+							<p class="pad_bot2">
+									Внимая призыву нашего архипастыря, мы по силам, стараемся работать в различных сферах социального служения:</p>
+							<div class="wrapper line1 marg_bot1">
+								<ul class="col1 list1">
+									@Html.Partial("SocialColumnOne")
+								</ul>
+								<ul class="list1 pad_left1 left">
+                                    @Html.Partial("SocialColumnTwo")
+                                </ul>
+                            </div>
+                            <form id="EditorForm" method="post">
+                                <textarea name="editor">@ViewBag.Claims</textarea>
+                                <a href="#" class="button" onclick="document.getElementById('EditorForm').submit()"><span><span>Сохранить</span></span></a>
+                            </form>
+                        </div>
+					</article>
+					<article class="col1 pad_left1">
+						@Html.Partial("Hotlinks")
+					</article>
+				</div>
+			</section>
+		</div>
+	</div>
+
