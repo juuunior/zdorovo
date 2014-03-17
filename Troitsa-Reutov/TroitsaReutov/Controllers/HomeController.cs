@@ -10,14 +10,61 @@ using System.Net.Mail;
 using System.Web.Mvc;
 using System.Xml.Serialization;
 using System.Net.Http;
+using System.Web.Security;
+using WebMatrix.WebData;
+using TroitsaReutov.Models;
 
 namespace TroitsaReutov.Controllers
 {
     public class HomeController : Controller
     {
+
+        [AllowAnonymous]
+        public ActionResult Login(string returnUrl)
+        {
+            ViewBag.ReturnUrl = returnUrl;
+            return View();
+        }
+
+
+        private ActionResult RedirectToLocal(string returnUrl)
+        {
+            
+            
+            if (Url.IsLocalUrl(returnUrl))
+            {
+                return Redirect(returnUrl);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+        //
+        // POST: /Account/Login
+
+        [HttpPost]
+        [AllowAnonymous]
+        public ActionResult Login(LoginModel model, string returnUrl)
+        {
+            if (ModelState.IsValid && FormsAuthentication.Authenticate(model.UserName, model.Password))
+            {
+                FormsAuthentication.SetAuthCookie(model.UserName,false);
+                return RedirectToAction("Editor", "Home");
+            }
+
+            // If we got this far, something failed, redisplay form
+            ModelState.AddModelError("", "The user name or password provided is incorrect.");
+            return View(model);
+        }
+
+
         public ActionResult Index()
         {
+            string path = Server.MapPath("~/claims.txt");
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            if (System.IO.File.Exists(path))
+                ViewBag.Claims = System.IO.File.ReadAllText(path);
 
             return View();
         }
@@ -104,6 +151,25 @@ namespace TroitsaReutov.Controllers
 		{
 			return View();
 		}
+
+        [ValidateInput(false)]
+        [Authorize]
+        public ActionResult Editor()
+        {
+
+            string path = Server.MapPath("~/claims.txt");
+            if (!String.IsNullOrEmpty(Request["editor"]))
+            {
+                string claims = Request["editor"];
+                System.IO.File.WriteAllText(path, claims);
+            }
+
+            if (System.IO.File.Exists(path))
+                ViewBag.Claims = System.IO.File.ReadAllText(path);
+
+
+            return View();
+        }
 
 		public ActionResult Conversation()
 		{

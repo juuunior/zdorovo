@@ -1,0 +1,28 @@
+﻿@model TroitsaReutov.Models.LoginModel
+@{
+    ViewBag.Title = "Библиотека богослужебных текстов";
+    ViewBag.PageId = "page1";
+    ViewBag.ActiveClass = "nav1";
+}
+<section id="loginForm">
+<h2>Use a local account to log in.</h2>
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
+ 
+        <legend>Log in Form</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.UserName)
+                @Html.TextBoxFor(m => m.UserName)
+                @Html.ValidationMessageFor(m => m.UserName)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Password)
+                @Html.PasswordFor(m => m.Password)
+                @Html.ValidationMessageFor(m => m.Password)
+            </li>
+        </ol>
+        <input type="submit" value="Log in" />
+
+}
+</section>
+
