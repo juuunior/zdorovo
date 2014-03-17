@@ -4,12 +4,12 @@
     ViewBag.PageId = "page1";
     ViewBag.ActiveClass = "nav1";
 }
+<div class="body7">
 <section id="loginForm">
-<h2>Use a local account to log in.</h2>
+<h2>Введите логин и пароль</h2>
 @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl })) {
- 
-        <legend>Log in Form</legend>
-        <ol>
+    
+       <ol>
             <li>
                 @Html.LabelFor(m => m.UserName)
                 @Html.TextBoxFor(m => m.UserName)
@@ -21,8 +21,8 @@
                 @Html.ValidationMessageFor(m => m.Password)
             </li>
         </ol>
-        <input type="submit" value="Log in" />
-
+        <input type="submit" value="Войти" style="border:1px solid black" />
+    
 }
 </section>
-
+</div>
