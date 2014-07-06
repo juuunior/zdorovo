@@ -1,349 +1,451 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <services>
-	<service>
-		<date>2014-02-01</date>
-		<megadescription>Прп. Макария Великого, Египетского. Свт. Марка, архиеп. Ефесского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-01</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-02</date>
-		<megadescription>Прп. Евфимия Великого</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. </eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-02</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-03</date>
-		<megadescription>Прп. Максима Грека. Прп. Максима Исповедника</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-03</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-04</date>
-		<megadescription>Ап. Тимофея</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-04</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-05</date>
-		<megadescription>Сщмч. Климента, еп. Анкирского и мч. Агафангела. Сщмч. Петра, архиеп. Воронежского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-05</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-06</date>
-		<megadescription>Блж. Ксении Петербургской. Сщмч. Владимира, митр. Киевского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Водосвятный молебен. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-06</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-07</date>
-		<megadescription>Свт. Григория Богослова, архиеп. Константинопольского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-07</date>
-		<megadescription/>
-		<time>16:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-08</date>
-		<megadescription>Свт. Иоанна Златоуста</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-08</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-09</date>
-		<megadescription>Неделя о мытаре и фарисее. Собор новомученников и исповедников Российских</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. </eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-09</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-10</date>
-		<megadescription>Прп. Ефрема Сирина. Прп. Феодосия Тотемского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-10</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-11</date>
-		<megadescription>Сщмч. Игнатия Богоносца</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-11</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-12</date>
-		<megadescription>Собор вселенских учителей и святителей Василия Великого, Григория Богослова и Иоанна Златоустого</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-12</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-13</date>
-		<megadescription>Свт. Никиты, еп. Новгородского. Бессребреников мчч. Кира и Иоанна</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-13</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-14</date>
-		<megadescription>Предпразднство Сретения Господня. Мч. Трифона</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Водосвятный молебен. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-14</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-15</date>
-		<megadescription>СРЕТЕНИЕ ГОСПОДА БОГА И СПАСА НАШЕГО ИИСУСА ХРИСТА</megadescription>
-		<time>06:00:00.000</time>
-		<eventdesciption>Часы. Литургия. </eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-15</date>
-		<megadescription/>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-15</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-16</date>
-		<megadescription>Неделя о блудном сыне</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. </eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-16</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-17</date>
-		<megadescription>Попразднство Сретения Господня. Блгв.вл.кн. Георгия Владимирского. Равноап. Николая Японского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-17</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-18</date>
-		<megadescription>Свт. Феодосия, архиеп. Черниговского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-18</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-19</date>
-		<megadescription>Прп. Вукола, еп. Смирнского. Прп. Парфения, еп. Лампсакийского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-19</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
   <service>
-		<date>2014-02-20</date>
-    <megadescription>Свт. Тихона, патриарха Московского и всея России</megadescription>
-		<time>06:30:00.000</time>
-		<eventdesciption>Часы. Литургия. Крестный ход.</eventdesciption>
+		<date>2014-03-31</date>
+		<megadescription>Свт. Кирилла, архиеп. Иерусалимского.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Вечерня. Лития.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-20</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-21</date>
-		<megadescription>Отдание праздника Сретения Господня</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Водосвятный молебен. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-21</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-22</date>
-		<megadescription>Вселенская родительская суббота</megadescription>
-		<time>06:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Панихида.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-22</date>
-		<megadescription/>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Панихида.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-22</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-23</date>
-		<megadescription>Неделя мясопустная, о Страшном суде</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. </eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-23</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-24</date>
-		<megadescription>Сщмч. Власия, еп. Севастийского. Прп. Димитрия Прилуцкого</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-24</date>
-		<megadescription/>
-		<time>17:00:00.000</time>
-		<eventdesciption>Полиелей. Исповедь.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-25</date>
-		<megadescription>Свт. Алексия, митр. Московского. Свт. Мелетия, архиеп. Антиохийского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
-	</service>
-	<service>
-		<date>2014-02-25</date>
+		<date>2014-03-31</date>
 		<megadescription/>
 		<time>17:00:00.000</time>
 		<eventdesciption>Вечернее богослужение. </eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-26</date>
-		<megadescription>Прп. Симеона, царя Сербского, Мироточивого</megadescription>
-		<time>09:00:00.000</time>
+		<date>2014-04-01</date>
+		<megadescription>Мчч. Хрисанфа и Дарии. (Сщмч. Антипы, еп. Пергамского, сщмч. Григория, патриарха Константинопольского)</megadescription>
+		<time>08:00:00.000</time>
 		<eventdesciption>Часы. Вечерня. Лития.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-26</date>
+		<date>2014-04-01</date>
 		<megadescription/>
 		<time>17:00:00.000</time>
 		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-27</date>
-		<megadescription>Равноап. Кирилла, учителя Словенского</megadescription>
+		<date>2014-04-02</date>
+		<megadescription>Прпп. Иоанна, Сергия, Патрикия и прочих, во обители св. Саввы убиенных. Прп. Серафима Вырицкого.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-02</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Утреня с чтением Великого покаянного канона прп. Андрея Критского (Мариино стояние).</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-03</date>
+		<megadescription>Сщмч. Владимира пресвитера (1931 г.). (Прп. Марии Египетской. Канон с воскресного дня).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Исповедь. Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-03</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-04</date>
+		<megadescription>Сщмч. Василия Анкирского. Прп. Сергия Сребрянского, исповедниа (1948 г.).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-04</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Утреня с Акафистом Пресвятой Богородице. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-05</date>
+		<megadescription>Похвала Пресвятой Богородицы. (Суббота Акафиста).</megadescription>
 		<time>09:00:00.000</time>
 		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-27</date>
+		<date>2014-04-05</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-06</date>
+		<megadescription>Предпразднство Благовещения Пресвятой Богородицы.</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-06</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-06</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-07</date>
+		<megadescription>Благовещение Пресвятой Богородицы. (Прп. Василия, исповедника, еп. Парийского).</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-07</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Вечерня с Литургией свт. Иоанна Златоуста.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-07</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. </eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-08</date>
+		<megadescription>Отдание праздника Благовещения Пресвятой Богородицы. Собор Архангела Гавриила. (Сщмч. Артемона Лаодикийского).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Вечерня. Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-08</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-09</date>
+		<megadescription>Мц. Матроны Солунской.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-09</date>
+		<megadescription/>
+		<time>18:00:00.000</time>
+		<eventdesciption>Исповедь. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-09</date>
+		<megadescription/>
+		<time>19:00:00.000</time>
+		<eventdesciption>Соборование.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-10</date>
+		<megadescription>Прмч. Евстратия Печерского. (Свт. Мартина, исп., папы Римского).</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Вечерня. Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-10</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-11</date>
+		<megadescription>Мчч. Марка, еп. Арефусийского, Кирилла диакона и иных многих.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Литургия Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-11</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-12</date>
+		<megadescription>Воскрешение праведного Лазаря.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Водосвятный молебен. Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-12</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Исповедь. Всенощное бдение. Освящение вербы.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-13</date>
+		<megadescription>Вход Господень в Иерусалим.</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-13</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-13</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Великая Вечерня. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-14</date>
+		<megadescription>Великий Понедельник.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Вечерня с Литургией Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-14</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-15</date>
+		<megadescription>Великий Вторник.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Вечерня с Литургией Преждеосвященных Даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-15</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-16</date>
+		<megadescription>Великая Среда.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Часы. Вечерня с Литургией Преждеосвященных даров.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-16</date>
+		<megadescription/>
+		<time>16:00:00.000</time>
+		<eventdesciption>Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-16</date>
 		<megadescription/>
 		<time>17:00:00.000</time>
 		<eventdesciption>Вечернее богослужение.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-28</date>
-		<megadescription>Ап. от 70-ти Онисима. Прав. Василия Павлово-Посадского</megadescription>
-		<time>09:00:00.000</time>
-		<eventdesciption>Часы. Вечерня. Водосвятный молебен. Лития.</eventdesciption>
+		<date>2014-04-17</date>
+		<megadescription>Великий Четверток. Воспоминание Тайной Вечери.</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
 	</service>
 	<service>
-		<date>2014-02-28</date>
+		<date>2014-04-17</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Вечерня с Литургией.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-17</date>
+		<megadescription/>
+		<time>18:00:00.000</time>
+		<eventdesciption>Утреня с чтением Евангелий Последования Святых Страстей Господа нашего Иисуса Христа.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-18</date>
+		<megadescription>Великая Пятница. Воспоминание Святых спасительных Страстей Господа нашего Иисуса Христа.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Царские Часы.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-18</date>
+		<megadescription/>
+		<time>13:30:00.000</time>
+		<eventdesciption>Великая Вечерня с выносом Плащаницы.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-18</date>
+		<megadescription/>
+		<time>18:00:00.000</time>
+		<eventdesciption>Утреня с Чином погребения Плащаницы.</eventdesciption>
+	</service>
+  <service>
+		<date>2014-04-19</date>
+		<megadescription>Великая Суббота.</megadescription>
+		<time>08:00:00.000</time>
+		<eventdesciption>Освящение яиц и куличей до с 8:00 до 20:00</eventdesciption>
+	</service>
+	<!--<service>
+		<date>2014-04-19</date>
+		<megadescription>Великая Суббота.</megadescription>
+		<time>8:00:00.000</time>
+		<eventdesciption>c 8:00 до 20:00 освящение яиц и куличей</eventdesciption>
+	</service>-->
+	<service>
+		<date>2014-04-19</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Исповедь. Часы. Вечерня с Литургией св. Василия Великого.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-19</date>
+		<megadescription/>
+		<time>22:00:00.000</time>
+		<eventdesciption>Чтение Деяний Святых Апостолов.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-19</date>
+		<megadescription/>
+		<time>23:30:00.000</time>
+		<eventdesciption>Полунощница.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-19</date>
+		<megadescription/>
+		<time>23:59:00.000</time>
+		<eventdesciption>Крестный ход. Утреня. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-20</date>
+		<megadescription>ПАСХА ХРИСТОВА</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-20</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Великая Вечерня. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-21</date>
+		<megadescription>Светлый Понедельник.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Утреня. Часы. Литургия. Крестный ход.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-21</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-22</date>
+		<megadescription>Светлый Вторник.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Крестный ход.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-22</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-23</date>
+		<megadescription>Светлая Среда.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Крестный ход.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-23</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-24</date>
+		<megadescription>Светлый Четверг.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Крестный ход.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-24</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-25</date>
+		<megadescription>Светлая Пятница. Иконы Божией Матери "Живоносный Источник".</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Водосвятный молебен. Крестный ход.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-25</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-26</date>
+		<megadescription>Светлая Суббота.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Крестный ход. Раздача Артоса.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-26</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Всенощное бдение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-27</date>
+		<megadescription>Антипасха. Ап. Фомы.</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-27</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-27</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-28</date>
+		<megadescription>Максимовской иконы Божией Матери.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-28</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-29</date>
+		<megadescription>Радоница. Поминовение усопших.</megadescription>
+		<time>06:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Панихида.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-29</date>
+		<megadescription/>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Панихида.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-29</date>
+		<megadescription/>
+		<time>17:00:00.000</time>
+		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-30</date>
+		<megadescription>Сщмч. Симеона, еп. Персидского и иных с ним мучеников.</megadescription>
+		<time>09:00:00.000</time>
+		<eventdesciption>Часы. Литургия. Лития.</eventdesciption>
+	</service>
+	<service>
+		<date>2014-04-30</date>
 		<megadescription/>
 		<time>17:00:00.000</time>
 		<eventdesciption>Вечернее богослужение. Исповедь.</eventdesciption>
